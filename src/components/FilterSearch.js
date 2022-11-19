@@ -41,3 +41,31 @@ function FilterSearch({ searchFilter, searchCountry }) {
 	searchCountry(search);
 
 	// console.log("Country Options ==>", countryOptions);
+
+    return (
+		<div className="search-filter">
+			<h1>Covid19 Analysis System</h1>
+			<div className="search-filter__form">
+				<div className="search-filter__inputs">
+					<Select
+						placeholder="Select Country"
+						options={countryOptions}
+						searchFilter={searchFilter}
+					/>
+					<div className="search-filter__inputs__search">
+						<input
+							type="string"
+							placeholder="search..."
+							onChange={handleChange}
+						/>
+						<button className="search-btn">
+							<SearchTwoToneIcon />
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	);
+}
+
+export default FilterSearch;
