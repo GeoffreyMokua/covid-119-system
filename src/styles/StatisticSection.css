@@ -17,10 +17,6 @@
     align-items: center;
 }
 
-.btn-pages {
-    /* padding: 5px; */
-}
-
 .btn-pages-font {
     color: var(--text-colour-font);
     font-size: 15px;
