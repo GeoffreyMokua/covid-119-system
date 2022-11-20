@@ -4,9 +4,6 @@ import BarChartDialog from "./BarChartDialog";
 
 function TableRow(props) {
 	const [statistics, setStatistics] = React.useState([]);
-	// const [label, setlabel] = React.useState(props.filter);
-	// const datainterval = statistics.slice(0, 14);
-
 	React.useEffect(() => {
 		getStatisticsData();
 	}, []);
@@ -48,7 +45,7 @@ function TableRow(props) {
 				<BarChartDialog
 					country={covid.country}
 					day={covid.day}
-					className="grapg-btn"
+					className="graph-btn"
 				/>
 			</td>
 		</tr>
@@ -69,7 +66,7 @@ function TableRow(props) {
 					<BarChartDialog
 						country={covid.country}
 						day={covid.day}
-						className="grapg-btn"
+						className="graph-btn"
 					/>
 				</td>
 			</tr>
