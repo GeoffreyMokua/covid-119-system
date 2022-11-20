@@ -46,7 +46,7 @@ export default function BarChartDialog(props) {
 		const options = {
 			method: "GET",
 			url: "https://covid-193.p.rapidapi.com/history",
-			params: { country: country, day: "2020-05-02" },
+			params: { country: country, day: "2020-06-02" },
 			headers: {
 				"X-RapidAPI-Key": "ae9e57d040msh01d6f2dab70ab6dp1afefcjsnddbe7e9267cc",
 				"X-RapidAPI-Host": "covid-193.p.rapidapi.com",
