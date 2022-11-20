@@ -1,10 +1,14 @@
 # COVID 19 ANALYSIS SYSTEM
 
+#### By Geoffrey Nyakundi
+
 ## Table displaying statistics Data
 
 <img src="./images/analytics.png" width="800px"/>
 
-#### By Geoffrey Nyakundi
+ ## Bar graph displaying covid 19 history
+
+ <img src="./images/graphhistory.png" width="800px"/>
 
 ## Table of content
 
