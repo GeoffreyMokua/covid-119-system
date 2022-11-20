@@ -67,6 +67,8 @@ SOFTWARE.
 
 ### link to the site
 
+https://covid-19-system.netlify.app/
+
 ### Authors Info
 
 LinkedIn- Geoffrey Nyakundi
