@@ -1,5 +1,9 @@
 # COVID 19 ANALYSIS SYSTEM
 
+## Table displaying statistics Data
+
+<img src="./readmeIMG/analytics.png" width="800"/>
+
 #### By Geoffrey Nyakundi
 
 ## Table of content
