@@ -2,7 +2,7 @@
 
 ## Table displaying statistics Data
 
-<img src="../readmeIMG/analytics.png" width="800"/>
+<img src="./images/analytics.png" width="800px"/>
 
 #### By Geoffrey Nyakundi
 
